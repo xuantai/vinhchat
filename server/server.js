@@ -1,6 +1,6 @@
 #!/bin/env node
 
-var io = require('socket.io').listen(8080);
+var io = require('socket.io').listen(80);
 var uh = require('./userhandler');
 
 var userCount = 0;
